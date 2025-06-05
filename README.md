@@ -44,14 +44,13 @@ done
 opkg update
 opkg install luci-app-passwall2
 opkg update
-service passwall enable
 ```
 
 ### 🔻 6.  Baixar config passwall2 padrão
 ```sh
-opkg update
-opkg install luci-app-passwall2
-opkg update
+rm -f /etc/config/passwall2
+wget -O /etc/config/passwall https://raw.githubusercontent.com/fleetvpngit/NANOPI-R3S-PASSWALL2/refs/heads/main/passwall2
+chmod +x /etc/config/passwall2
 service passwall enable
 ```
 
