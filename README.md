@@ -44,6 +44,15 @@ done
 opkg update
 opkg install luci-app-passwall2
 opkg update
+service passwall enable
+```
+
+### 🔻 6.  Baixar config passwall2 padrão
+```sh
+opkg update
+opkg install luci-app-passwall2
+opkg update
+service passwall enable
 ```
 
 Após a instalação
