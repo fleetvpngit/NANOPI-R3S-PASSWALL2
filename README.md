@@ -11,6 +11,16 @@ opkg install dnsmasq-full
 ### 🔻 2. Instalar módulos necessários para TPROXY
 ```sh
 opkg install kmod-nft-tproxy kmod-nft-socket
+opkg install ipset
+opkg install ipt2socks
+opkg install iptables
+opkg install iptables-legacy
+opkg install iptables-mod-conntrack-extra
+opkg install iptables-mod-iprange
+opkg install iptables-mod-socket
+opkg install iptables-mod-tproxy
+opkg install kmod-ipt-nat
+opkg install kmod-tun
 ```
 
 ### 🔻 3.  Adicionar a chave pública do repositório Passwall
