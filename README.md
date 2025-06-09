@@ -50,9 +50,9 @@ opkg update
 ### 🔻 6.  Baixar config passwall2 padrão
 ```sh
 rm -f /etc/config/passwall2
-wget -O /etc/config/passwall https://raw.githubusercontent.com/fleetvpngit/NANOPI-R3S-PASSWALL2/refs/heads/main/passwall2
+wget -O /etc/config/passwall2 https://raw.githubusercontent.com/fleetvpngit/NANOPI-R3S-PASSWALL2/refs/heads/main/passwall2
 chmod +x /etc/config/passwall2
-service passwall enable
+service passwall2 enable
 ```
 
 Após a instalação
